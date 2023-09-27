@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    padding: 5px;
+    
+    text-align: center;
+    background-image: url("wall.jpg");
+
+}
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding: 1px;
+    border: 0.65px solid black;
+    opacity: 0.6;
+    transition: .7s;
+} 
+.rounded{
+    border-radius: 5px;
+}
+.links a:hover{
+    opacity: 1;
+    transition: .7s;
+    font-size: 25px;
+}
+.Pink{background-color: red;}
+.Blue{background-color: orange;}
+.Red{background-color: white;}
+.Green{background-color: palevioletred;}
